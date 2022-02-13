@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding-top: 12vh;
+}
+.container{
+    border: 1px solid red;
+    background-color: rgb(177, 177, 177);
+    width: 25vw;
+    height: 65vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen{
+    width: 90%;
+    min-height: 44px;
+    background-color: white;
+    border-radius: 6px;
+    border: #707070 solid 1px;
+    color: #707070;
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin: auto;
+    margin-top: 24px;
+    margin-bottom: 4%;
+}
+
+.operations{
+    width: 70%;
+    padding: 10px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.operStyle{
+    width: 56px;
+    height: 56px;
+    background-color: #868585;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.operStyle:active{
+    background-color: rgb(231, 230, 230);
+}
+
+.numbers{
+    /* width: 70%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.numStyle{
+    border: red 1px solid;
+    width: 56px;
+    height: 56px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+
+    /* width: 56px; */
+    /* height: 56px; */
+    /* border-radius: 50%; */
+    /* font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; */ 
+}
+.numStyle:active{
+    background: #ffffff;
+}
+
+
+#clearBtn{
+    border: none;
+    background-color: #868585;
+    color: white;
+    font-weight: bold;
+}
+
+#clearBtn:active{
+    background-color: rgb(240, 196, 196);
+}
+
+#equalBtn{
+    border: none;
+    background-color: rgb(160, 80, 48);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
